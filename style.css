@@ -10,6 +10,7 @@
 * {
     font-family: "Montserrat";
     margin: 0;
+    text-shadow: 1px 1px 10px black;
 }
 header {
     background-color: rgb(241, 100, 234);
@@ -60,6 +61,12 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+}
+.welcome-container > p {
+    width: 60%;
+    font-size: larger;   
+    text-align: justify;
+    margin: 1rem;
 }
 .banner-frame {
     height: 496px;
