@@ -1,0 +1,10 @@
+.pattern-cards-container {
+    margin: 3rem;
+}
+.pattern-card {
+    width: 40%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 1px 1px 15px 2px black;
+}
