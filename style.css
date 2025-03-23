@@ -23,6 +23,10 @@ h1 {
     margin-left: 1rem;
     font-family: "Delius";
 }
+h1 > a {
+    text-decoration: none;
+    color: aliceblue;
+}
 header > nav {
     width: 100%;
     display: flex;
@@ -64,4 +68,11 @@ body {
 .banner-frame > img {
     width: 100%;
     margin: 0 0 0 0;
+}
+.footer-btn {
+    background-color: transparent;
+    border: none;
+}
+.icon {
+    height: 55px;
 }
