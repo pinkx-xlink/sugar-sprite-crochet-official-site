@@ -76,6 +76,14 @@ body {
     width: 100%;
     margin: 0 0 0 0;
 }
+
+footer {
+    height: 25rem;
+    background-color: rgb(59, 27, 59);
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
 .footer-btn {
     background-color: transparent;
     border: none;
