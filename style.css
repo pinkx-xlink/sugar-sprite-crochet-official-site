@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Delius";
+    src: url('assets/Delius_Unicase/DeliusUnicase-Regular.ttf') format(TrueType);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url('assets/Montserrat_Alternates/MontserratAlternates-Regular.ttf') format(TrueType);
+}
+
+* {
+    font-family: "Montserrat";
+    margin: 0;
+}
+header {
+    background-image: radial-gradient(pink, purple);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    
+}
+
+h1 {
+    font-family: "Delius";
+}
