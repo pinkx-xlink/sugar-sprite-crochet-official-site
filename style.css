@@ -55,14 +55,16 @@ body {
    flex-direction: column;
 }
 
-.welcome-container {
+.welcome-container,
+.contact-me-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
 }
-.welcome-container > p {
+.welcome-container,
+.contact-me-container > p {
     width: 60%;
     font-size: larger;   
     text-align: justify;
