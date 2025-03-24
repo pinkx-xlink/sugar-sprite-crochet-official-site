@@ -56,6 +56,11 @@ body {
    text-align: center;
 }
 
+.welcome-message > h1 {
+    width: 100%;
+    font-size: 50px;
+}
+
 .welcome-container,
 .contact-me-container {
     display: flex;
