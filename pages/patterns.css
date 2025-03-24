@@ -4,7 +4,7 @@
     grid-template-columns: repeat(2, 1fr);
 }
 .pattern-card {
-    width: 90%;
+    width: 80%;
     background-color: aliceblue;
     border-radius: 15px;
     padding: 1rem;
