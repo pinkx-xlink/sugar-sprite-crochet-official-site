@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Delius";
-    src: url('assets/Delius_Unicase/DeliusUnicase-Regular.ttf') format(TrueType);
+    src: url('../assets/Delius_Unicase/DeliusUnicase-Regular.ttf') format(TrueType);
 }
 @font-face {
     font-family: "Montserrat";
-    src: url('assets/Montserrat_Alternates/MontserratAlternates-Regular.ttf') format(TrueType);
+    src: url('../assets/Montserrat_Alternates/MontserratAlternates-Regular.ttf') format(TrueType);
 }
 
 * {
