@@ -15,8 +15,32 @@
 
 .pattern-card > img {
     width: 80%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     border-radius: 15px;
     border: 2px solid rgb(163, 199, 163);
+}
+
+/* DESKTOP VIEWING */
+@media (min-width: 961px) {
+.pattern-card > img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+}
+
+
+/* MOBILE VIEWING */
+@media (max-width: 450px) {
+    .pattern-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pattern-card {
+        width: 100%;
+    }
+    .pattern-card > p {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
 }
