@@ -64,7 +64,8 @@ body {
     width: 728px;
     margin: 0 auto;
     background-color: rgb(83, 83, 83);
-    border: 0.5rem inset gray;
+    border: 3px solid rgb(250, 130, 210);
+    border-radius: 15px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     box-shadow: -10px -10px 2px rgba(0, 0, 0, 0.3);
