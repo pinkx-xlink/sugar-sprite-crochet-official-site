@@ -217,6 +217,15 @@ footer {
     }
 }
 
+/* Dropdown menu animation */
+@keyframes dropdown {
+    from {
+        margin-top: 0%;
+    }
+    to {
+        margin-top: 7%;
+    }
+}
 /* CSS FOR MOBILE VIEWING */
 @media (max-width: 450px) {
     
@@ -224,8 +233,6 @@ footer {
         height: 250px;
         margin: -50px 0 0 0;
     }
-
-
         
     .dropdown {
         /* left: 40%; */
@@ -235,7 +242,6 @@ footer {
         background-color: rgb(241, 100, 234);
         height: 5rem;
     }
-
     .dropbtn {
         background-color: rgb(241, 100, 234);
         color: white;
@@ -258,25 +264,26 @@ footer {
         width: 100%;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
+        
     }
-
+    .animate {
+        animation-name: dropdown;
+        animation-duration: 1s;
+    }
     .dropdown-content > button {
         background-color: rgb(241, 100, 234);
         border: 1px solid white;
         height: 3rem;
     }
-
     .dropdown-content a {
         color: black;
         padding: 2px 6px;
         text-decoration: none;
         display: block;
     }
-
     .dropdown-content a:hover {
         background-color: #f1f1f1;
     }
-
     h1 {
         margin-left: 5rem;
     }

@@ -1,9 +1,13 @@
 function toggleDropdown() {
     const dropdownContent = document.getElementById("myDropdown");
+    // const dropdownBtns = document.
     if (dropdownContent.style.display === "flex") {
+        dropdownContent.classList.toggle('animate');
         dropdownContent.style.display = "none";
     } else {
         dropdownContent.style.display = "flex";
+        dropdownContent.classList.toggle('animate');
+       
     }
 }
 
