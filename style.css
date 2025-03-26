@@ -56,6 +56,70 @@ body {
    text-align: center;
 }
 
+
+/* Styling the area of the slides */
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+    background-color: rgb(83, 83, 83);
+    border: 0.5rem inset gray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: -10px -10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.slide > img {
+    width: 728px;
+    /* margin: -75px 0 0 -100px; */
+}
+
+/* Style each of the sides 
+  with a fixed width and height */
+.slide {
+    float: left;
+    height: 500px;
+    width: 728px;
+    margin: -100px 0 0 0;
+    /* overflow: hidden; */
+}
+
+/* Add animation to the slides */
+.slide-wrapper {
+    /* Calculate the total width on the
+    basis of number of slides */
+    width: calc(728px * 4);
+
+    /* Specify the animation with the
+    duration and speed */
+    animation: slide 10s ease infinite;
+}
+
+/* Define the animation 
+  for the slideshow */
+@keyframes slide {
+
+    /* Calculate the margin-left for 
+    each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
+
+
 @keyframes slidein {
     from {
         margin-left: -70%;
