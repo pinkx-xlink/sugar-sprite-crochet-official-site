@@ -230,10 +230,12 @@ footer {
 @media (max-width: 450px) {
     
     .banner-frame > img {
-        height: 250px;
+        width: 100%;
+        height: auto;
         margin: -50px 0 0 0;
     }
-        
+     
+
     .dropdown {
         /* left: 40%; */
         text-align: center;
@@ -284,12 +286,8 @@ footer {
     .dropdown-content a:hover {
         background-color: #f1f1f1;
     }
-    h1 {
-        margin-left: 5rem;
-    }
 
-
-    .welcome-container > p {
+    .welcome-container {
         width: 90%;
     }
 
@@ -325,25 +323,25 @@ footer {
         animation: slide 10s ease infinite;
     }   
     /* Define the animation 
-  for the slideshow */
-@keyframes slide {
+    for the slideshow */
+    @keyframes slide {
 
-    /* Calculate the margin-left for 
-    each of the slides */
-    20% {
-        margin-left: 0px;
-    }
+        /* Calculate the margin-left for 
+        each of the slides */
+        20% {
+            margin-left: 0px;
+        }
 
-    40% {
-        margin-left: calc(-400px * 1);
-    }
+        40% {
+            margin-left: calc(-400px * 1);
+        }
 
-    60% {
-        margin-left: calc(-400px * 2);
-    }
+        60% {
+            margin-left: calc(-400px * 2);
+        }
 
-    80% {
-        margin-left: calc(-400px * 3);
+        80% {
+            margin-left: calc(-400px * 3);
+        }
     }
-}
 }
