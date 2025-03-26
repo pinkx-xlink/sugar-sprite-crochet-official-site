@@ -1,9 +1,9 @@
 function toggleDropdown() {
     const dropdownContent = document.getElementById("myDropdown");
-    if (dropdownContent.style.display === "block") {
+    if (dropdownContent.style.display === "flex") {
         dropdownContent.style.display = "none";
     } else {
-        dropdownContent.style.display = "block";
+        dropdownContent.style.display = "flex";
     }
 }
 
@@ -14,7 +14,7 @@ window.onclick = function (event) {
                 ("dropdown-content");
         for (let i = 0; i < dropdowns.length; i++) {
             const openDropdown = dropdowns[i];
-            if (openDropdown.style.display === "block") {
+            if (openDropdown.style.display === "flex") {
                 openDropdown.style.display = "none";
             }
         }
