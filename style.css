@@ -211,6 +211,64 @@ footer {
 }
 
 /* CSS FOR MOBILE VIEWING */
-@media (max-width: 400) {
+@media (max-width: 450px) {
+    
+    .banner-frame > img {
+        height: 250px;
+        margin: -50px 0 0 0;
+    }
 
+    #slideshow {
+        align-items: center;
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .slide > img,
+    .slideshow-img {
+        width: 400px;
+        margin: -75px 0 0 0;
+    }
+
+    /* Style each of the sides 
+    with a fixed width and height */
+    .slide {
+        float: left;
+        width: 400px;
+    }
+
+    /* Add animation to the slides */
+    .slide-wrapper {
+        /* Calculate the total width on the
+        basis of number of slides */
+        width: calc(400px * 4);
+
+        /* Specify the animation with the
+        duration and speed */
+        animation: slide 10s ease infinite;
+    }   
+    /* Define the animation 
+  for the slideshow */
+@keyframes slide {
+
+    /* Calculate the margin-left for 
+    each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+
+    40% {
+        margin-left: calc(-400px * 1);
+    }
+
+    60% {
+        margin-left: calc(-400px * 2);
+    }
+
+    80% {
+        margin-left: calc(-400px * 3);
+    }
+}
 }
