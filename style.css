@@ -56,11 +56,25 @@ body {
    text-align: center;
 }
 
+@keyframes slidein {
+    from {
+        margin-left: -70%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
 .welcome-message > h1 {
     width: 100%;
     font-size: 50px;
 }
-
+.welcome-container > p,
+.welcome-container > h2 {
+    float: right;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
 .welcome-container,
 .contact-me-container {
     display: flex;
