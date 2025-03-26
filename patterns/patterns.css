@@ -6,11 +6,17 @@
     font-family: "Montserrat";
     src: url('../assets/Montserrat_Alternates/MontserratAlternates-Regular.ttf') format(TrueType);
 }
-
 * {
     font-family: "Montserrat";
     margin: 0;
     text-shadow: 1px 1px 10px black;
+}
+.pattern-top-photo {
+    width: 500px;
+    border-radius: 15px;
+    align-self: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 header {
     background-color: rgb(241, 100, 234);
@@ -54,7 +60,10 @@ body {
    display: flex;
    flex-direction: column;
 }
-
+li {
+    list-style: none;
+    margin: 1rem;
+}
 .welcome-container,
 .contact-me-container {
     display: flex;
