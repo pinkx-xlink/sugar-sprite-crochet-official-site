@@ -8,7 +8,7 @@
     background-color: aliceblue;
     border-radius: 15px;
     padding: 1rem;
-    margin: 3rem;
+    
     box-shadow: 1px 1px 15px 2px black;
     text-align: center;
 }
@@ -27,6 +27,13 @@
 }
 }
 
+/* TABLET VIEWING */
+@media (min-width: 961px) {
+    .pattern-card {
+        margin: 3rem;
+    }
+}
+
 
 /* MOBILE VIEWING */
 @media (max-width: 450px) {
@@ -37,7 +44,8 @@
         align-items: center;
     }
     .pattern-card {
-        width: 100%;
+        width: 90%;
+        margin: 1rem;
     }
     .pattern-card > p {
         margin-top: 0.25rem;
